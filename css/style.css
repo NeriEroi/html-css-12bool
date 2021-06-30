@@ -3,8 +3,8 @@ body {
     font-family:sans-serif
 }
 
-.container .row:nth-child(1) .col-1,
-.container .row:nth-child(1) .col {
+.container .row:nth-child(1) .col,
+.container .row:nth-child(1) .col-1 {
     padding: 20px 40px 20px 40px;
     font-size: 15px;
     margin: 1px;
@@ -24,6 +24,28 @@ body {
 }
 
 .container .row:nth-child(3) .col-12 {
+    padding: 20px 40px 20px 40px;
+    font-size: 15px;
+    margin: 1px;
+    color: white;
+    background-color: #006CFA;
+    text-align: center;
+}
+
+.container .row:nth-child(4) .col,
+.container .row:nth-child(4) .col-8 {
+    padding: 20px 40px 20px 40px;
+    font-size: 15px;
+    margin: 1px;
+    color: white;
+    background-color: #006CFA;
+    text-align: center;
+}
+
+.container .row:nth-child(5) .col,
+.container .row:nth-child(5) .col-1,
+.container .row:nth-child(5) .col-2,
+.container .row:nth-child(5) .col-6 {
     padding: 20px 40px 20px 40px;
     font-size: 15px;
     margin: 1px;
