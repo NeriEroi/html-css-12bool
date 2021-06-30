@@ -130,3 +130,78 @@ body {
 }
 
 /* / Esercizio per casa */
+
+
+/* Offset */
+
+h1:last-of-type {
+    margin-top: 20px;
+}
+
+.offset.container .row:nth-child(1) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+.offset.container .row:nth-child(2) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+.offset.container .row:nth-child(3) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+.offset.container .row:nth-child(4) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+.offset.container .row:nth-child(5) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+.offset.container .row:nth-child(6) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+.offset.container .row:nth-child(7) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+.offset.container .row:nth-child(8) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+.offset.container .row:nth-child(9) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+.offset.container .row:nth-child(10) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+.offset.container .row:nth-child(11) .col {
+    height: 50px;
+    background-color: #006CFA;
+    margin: 1px;
+}
+
+/* / Offset */
