@@ -25,7 +25,7 @@ body {
     text-align: center;
 }
 
-.container .row:nth-child(3) .col-12 {
+.container .row:nth-child(3) .col {
     padding: 20px 40px 20px 40px;
     font-size: 15px;
     margin: 1px;
@@ -80,7 +80,7 @@ body {
     margin-top: 20px;
 }
 
-.second.container .row:nth-child(1) .col-12 {
+.second.container .row:nth-child(1) .col {
     height: 50px;
     background-color: #006CFA;
     margin: 1px;
