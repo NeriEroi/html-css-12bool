@@ -3,8 +3,8 @@ body {
     font-family:sans-serif
 }
 
-.container .row .col-1,
-.container .row .col {
+.container .row:nth-child(1) .col-1,
+.container .row:nth-child(1) .col {
     padding: 20px 40px 20px 40px;
     font-size: 15px;
     margin: 1px;
@@ -15,6 +15,15 @@ body {
 
 .container .row:nth-child(2) .col,
 .container .row:nth-child(2) .col-5 {
+    padding: 20px 40px 20px 40px;
+    font-size: 15px;
+    margin: 1px;
+    color: white;
+    background-color: #006CFA;
+    text-align: center;
+}
+
+.container .row:nth-child(3) .col-12 {
     padding: 20px 40px 20px 40px;
     font-size: 15px;
     margin: 1px;
