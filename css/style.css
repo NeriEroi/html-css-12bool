@@ -53,3 +53,23 @@ body {
     background-color: #006CFA;
     text-align: center;
 }
+
+.container .row:nth-child(6) .col,
+.container .row:nth-child(6) .col-6 {
+    padding: 20px 40px 20px 40px;
+    font-size: 15px;
+    margin: 1px;
+    color: white;
+    background-color: #006CFA;
+    text-align: center;
+}
+
+.container .row:nth-child(6) .col-6 .row [class*="col"],
+.container .row:nth-child(6) .col .row [class*="col"] {
+    padding: 20px 40px 20px 40px;
+    font-size: 11px;
+    margin: 1px;
+    color: white;
+    background-color: #00E165;
+    text-align: center;
+}
