@@ -5,129 +5,135 @@ body {
 
 /* Esercizio per casa */
 
-.container .row:nth-child(1) .col,
+/* first container */
+
 .container .row:nth-child(1) .col-1 {
     padding: 20px 40px 20px 40px;
     font-size: 15px;
-    margin: 1px;
+    border: 1px solid white;
     color: white;
     background-color: #006CFA;
     text-align: center;
 }
 
-.container .row:nth-child(2) .col,
+.container .row:nth-child(2) .col-2,
 .container .row:nth-child(2) .col-5 {
     padding: 20px 40px 20px 40px;
     font-size: 15px;
-    margin: 1px;
+    border: 1px solid white;
     color: white;
     background-color: #006CFA;
     text-align: center;
 }
 
-.container .row:nth-child(3) .col {
+.container .row:nth-child(3) .col-12 {
     padding: 20px 40px 20px 40px;
     font-size: 15px;
-    margin: 1px;
+    
     color: white;
     background-color: #006CFA;
     text-align: center;
 }
 
-.container .row:nth-child(4) .col,
+.container .row:nth-child(4) .col-2,
 .container .row:nth-child(4) .col-8 {
     padding: 20px 40px 20px 40px;
     font-size: 15px;
-    margin: 1px;
+    border: 1px solid white;
     color: white;
     background-color: #006CFA;
     text-align: center;
 }
 
-.container .row:nth-child(5) .col,
 .container .row:nth-child(5) .col-1,
 .container .row:nth-child(5) .col-2,
 .container .row:nth-child(5) .col-6 {
     padding: 20px 40px 20px 40px;
     font-size: 15px;
-    margin: 1px;
+    border: 1px solid white;
     color: white;
     background-color: #006CFA;
     text-align: center;
 }
 
-.container .row:nth-child(6) .col,
 .container .row:nth-child(6) .col-6 {
-    padding: 20px 40px 20px 40px;
+    padding: 10px 10px 10px 10px;
     font-size: 15px;
-    margin: 1px;
+    border: 1px solid white;
     color: white;
     background-color: #006CFA;
     text-align: center;
 }
 
-.container .row:nth-child(6) .col-6 .row [class*="col"],
-.container .row:nth-child(6) .col .row [class*="col"] {
-    padding: 20px 40px 20px 40px;
+.container .row:nth-child(6) .col-6 .row .col-2,
+.container .row:nth-child(6) .col-6 .row .col-6,
+.container .row:nth-child(6) .col-6 .row .col-8 {
+    padding: 10px 10px 10px 10px;
     font-size: 11px;
-    margin: 1px;
+    border: 1px solid blue;
     color: white;
     background-color: #00E165;
     text-align: center;
 }
 
+/* / first container */
+
+
+/* second container */
+
 .second.container {
     margin-top: 20px;
 }
 
-.second.container .row:nth-child(1) .col {
+.second.container .row:nth-child(1) .col-12 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
 }
 
-.second.container .row:nth-child(2) .col,
+.second.container .row:nth-child(2) .col-1,
 .second.container .row:nth-child(2) .col-11 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.second.container .row:nth-child(3) .col,
+.second.container .row:nth-child(3) .col-2,
 .second.container .row:nth-child(3) .col-10 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.second.container .row:nth-child(4) .col,
+.second.container .row:nth-child(4) .col-3,
 .second.container .row:nth-child(4) .col-9 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.second.container .row:nth-child(5) .col,
+.second.container .row:nth-child(5) .col-4,
 .second.container .row:nth-child(5) .col-8 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.second.container .row:nth-child(6) .col,
+.second.container .row:nth-child(6) .col-5,
 .second.container .row:nth-child(6) .col-7 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
 
-.second.container .row:nth-child(7) .col,
+.second.container .row:nth-child(7) .col-6,
 .second.container .row:nth-child(7) .col-6 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
+
+/* / second container */
 
 /* / Esercizio per casa */
 
@@ -138,70 +144,70 @@ h1:last-of-type {
     margin-top: 20px;
 }
 
-.offset.container .row:nth-child(1) .col {
+.offset.container .row:nth-child(1) .col-1 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.offset.container .row:nth-child(2) .col {
+.offset.container .row:nth-child(2) .col-2 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.offset.container .row:nth-child(3) .col {
+.offset.container .row:nth-child(3) .col-3 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.offset.container .row:nth-child(4) .col {
+.offset.container .row:nth-child(4) .col-4 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.offset.container .row:nth-child(5) .col {
+.offset.container .row:nth-child(5) .col-5 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.offset.container .row:nth-child(6) .col {
+.offset.container .row:nth-child(6) .col-6 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.offset.container .row:nth-child(7) .col {
+.offset.container .row:nth-child(7) .col-7 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.offset.container .row:nth-child(8) .col {
+.offset.container .row:nth-child(8) .col-8 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.offset.container .row:nth-child(9) .col {
+.offset.container .row:nth-child(9) .col-9 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.offset.container .row:nth-child(10) .col {
+.offset.container .row:nth-child(10) .col-10 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
-.offset.container .row:nth-child(11) .col {
+.offset.container .row:nth-child(11) .col-11 {
     height: 50px;
     background-color: #006CFA;
-    margin: 1px;
+    border: 1px solid white;
 }
 
 /* / Offset */
