@@ -327,3 +327,23 @@ h1 {
 }
 
 /* / Space Around */
+
+
+/* Space Between */
+
+.space_between.container .row {
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    background-color: #006CFA;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.space_between.container .row .col-2 {
+    height: 30px;
+    background-color: #00E165;
+    border: 1px solid #006CFA;
+}
+
+/* / Space Between */
